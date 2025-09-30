@@ -7,8 +7,18 @@ import org.example.utils.Helper;
 public class Main {
     public static void main(String[] args) {
 //        helperVerify();
-//        startRace();
-        podRacerVerify();
+//        podRacerVerify();
+        startRace();
+    }
+
+    private static void startRace() {
+        PodRacer[] podRacers = new PodRacer[2];
+        podRacers[0] = new PodRacer("Anakin");
+        podRacers[1] = new PodRacer("Sebulba");
+
+        System.out.println("Pod Racer");
+        Race race = new Race(podRacers);
+        race.start();
     }
 
     private static void podRacerVerify() {
@@ -17,12 +27,6 @@ public class Main {
         p1.status();
         p1.takeDame(100);
         p1.speedBoost(100);
-    }
-
-    private static void startRace() {
-        System.out.println("Pod Racer");
-        Race race = new Race();
-        race.start();
     }
 
     private static void helperVerify() {
