@@ -1,11 +1,14 @@
 package org.example;
 
+import org.example.GameEngine.Race;
 import org.example.utils.Helper;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Pod Racer");
-        helperVerify();
+        Race race = new Race();
+        race.start();
+//        helperVerify();
     }
 
     private static void helperVerify(){

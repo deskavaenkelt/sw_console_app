@@ -40,3 +40,8 @@
 - [x] Helper implements Helpers
 - [ ] PodRacer extends Racer
 - [ ] Race
+  - [x] While logik med max 100 ronder
+  - [ ] Podracers
+  - [ ] Instansiera podracers
+  - [ ] Speed increase
+  - [ ] takeDamage
