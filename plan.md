@@ -26,19 +26,19 @@
 
 ### Abstrakta klasser
 
-- [ ] Racer
-  - [ ] String name
-  - [ ] int speed
-  - [ ] int integrity
-  - [ ] status()
-  - [ ] isFunctional()
-  - [ ] abstract takeDamage()
-  - [ ] abstract speedBoost()
+- [x] Racer
+  - [x] String name
+  - [x] int speed
+  - [x] int health
+  - [x] status()
+  - [x] isFunctional()
+  - [x] abstract takeDamage()
+  - [x] abstract speedBoost()
 
 ### Klasser
 
 - [x] Helper implements Helpers
-- [ ] PodRacer extends Racer
+- [x] PodRacer extends Racer
 - [ ] Race
   - [x] While logik med max 100 ronder
   - [ ] Podracers
