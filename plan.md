@@ -2,7 +2,7 @@
 
 ## Ursprunglig implementation
 
-- Helper (Static)
+- Helper
   - randomInt()
   - sleepForMilliSeconds()
 - PodRacer
@@ -20,23 +20,23 @@
 
 ### Interfaces
 
-- Helpers
-    [resources](src/main/resources)- randomInt()
-    - sleepForMilliSeconds()
+- [x] Helpers
+    - [x] randomInt()
+    - [x] sleepForMilliSeconds()
 
 ### Abstrakta klasser
 
-- Racer
-  - String name
-  - int speed
-  - int integrity
-  - status()
-  - isFunctional()
-  - abstract takeDamage()
-  - abstract speedBoost()
+- [ ] Racer
+  - [ ] String name
+  - [ ] int speed
+  - [ ] int integrity
+  - [ ] status()
+  - [ ] isFunctional()
+  - [ ] abstract takeDamage()
+  - [ ] abstract speedBoost()
 
 ### Klasser
 
-- Helper implements Helpers
-- PodRacer extends Racer
-- Race
+- [x] Helper implements Helpers
+- [ ] PodRacer extends Racer
+- [ ] Race
