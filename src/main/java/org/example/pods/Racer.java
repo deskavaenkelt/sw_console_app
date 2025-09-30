@@ -11,6 +11,10 @@ abstract class Racer {
         this.health = 100;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public boolean isFunctional() {
         return health > 0;
     }
